@@ -84,6 +84,9 @@ frontエンドの勉強目的で作った、markdownでプレゼン資料が作�
 [yukimura1227/reveal_lightning](https://github.com/yukimura1227/reveal_lightning)
 [reveal_lightningについて](https://yukimura1227.github.io/try_github_pages/about_reveal_rightning/)
 
+#### librarian
+amazonのURLを伝えると、会社の本として購入してくれる福利厚生があったので、その発注と貸借を管理するためのWebアプリ  
+[librarian](https://github.com/yukimura1227/librarian)
 #### mameshiba-slack-bot
 社内のルールをゆるく周知して、ルール自体の改善を促すためのbot  
 [yukimura1227/mameshiba-slack-bot](https://github.com/yukimura1227/mameshiba-slack-bot)
