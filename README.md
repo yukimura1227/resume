@@ -81,7 +81,7 @@ This is template of curriculum vitae. Please use this template when need your cu
 ### 成果物
 #### reveal_lightning 
 frontエンドの勉強目的で作った、markdownでプレゼン資料が作れるreveal.jsの、動作環境つきエディタ。  
-[yukimura1227/reveal_lightning](https://github.com/yukimura1227/reveal_lightning)
+[yukimura1227/reveal_lightning](https://github.com/yukimura1227/reveal_lightning)  
 [reveal_lightningについて](https://yukimura1227.github.io/try_github_pages/about_reveal_rightning/)
 
 #### librarian
