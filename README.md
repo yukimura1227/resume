@@ -7,40 +7,66 @@ This is template of curriculum vitae. Please use this template when need your cu
 
 |key|value|
 |---|-----|
-|Name|ふー　ばー (Foo Bar)|
-|Blog|[ふーばーブログ](http://foobar.blog.com)|
-|Twitter|[@foobar](https://twitter.com/foobar)|
+|Name|高村宏幸|
+|生年|1985年|
+|Blog|[挫折から始まるプログラム開発奮闘記(最近更新していない)](http://yukimura1227.blog.fc2.com/)|
+|Qiita|[yukimura1227](https://qiita.com/yukimura1227)|
+|Twitter|[@takamura1227](https://twitter.com/takamura1227)|
+|coconala|[yukimura1227](https://profile.coconala.com/users/19294)|
 
 ## スキル
-### 言語
+### プログラミング言語
 - Ruby
-- PHP
 - Java
-- などなど
+- Javascript
+- C,C++ (大学生時代に使っていた)
 
 ### フレームワーク
-
 - Ruby on Rails
-- Laravel
-- Spring Boot
-- などなど
+- Struts1系
+- Spring
+- MyBatis
+- Vue.js(少々)
 
-### その他
+### 開発手法
+- ウォーターフォール(2008/06〜2016/02)
+- スクラム(2016/03〜)
 
-- 言語やフレームワークに限らないスキル。開発手法やプロセス、ツールなど
+### Cloud
+- AWS
+
+### Infrastructure as Code
+- Ansible
+  - 未導入の状態から既に構築手順がわからないインフラを業務の傍らで長期的にコード化した
+
+### Platform as a Service
+- Heroku
+
+### CIツール
+- CircleCI
+  - 業務で使っている。
+- TravisCI
+  - 嗜む程度(テスト回して、electronアプリのパッケージングをしたりする程度)
+  - [参考：.travis.yml](https://github.com/yukimura1227/reveal_lightning/blob/development/.travis.yml)
+
+他にもあるので、TODO
 
 ## 言語
 
 - 日本語
   - ネイティブ
 - 英語
-  - かんたんな日常会話ができる
-  - TOEIC: xxx点
+  - ドキュメントを、調べながら読むことに抵抗はない
 
 ## 強み
 
-## やったことはないが興味があるもの
+- TODO
 
+## やったことはないが興味があるもの
+- Google Cloud Platform
+- TODO
+
+<!-- TODO
 ## 職務経歴
 
 ### yyyy/mm - 現在 : 会社名
@@ -77,6 +103,7 @@ This is template of curriculum vitae. Please use this template when need your cu
 * [ネットメディアの記事](記事のリンクとか)
 * [SoftwareDesignやWEB+DBのこの月の特集](その月のアーカイブのリンクとか)
 * [技術系同人誌](boothのリンクとか自分のサイトの紹介リンクとか)
+-->
 
 ### 成果物
 #### reveal_lightning 
