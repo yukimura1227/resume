@@ -32,8 +32,9 @@ This is template of curriculum vitae. Please use this template when need your cu
 - Webpack(少々)
 - jest(少々)
 
-### インフラ
-- Docker
+### CSSフレームワークなど
+- ui-kit(少々)
+- bootstrap(少々)
 
 ### 開発手法
 - ウォーターフォール(2008/06〜2016/02)
@@ -42,13 +43,22 @@ This is template of curriculum vitae. Please use this template when need your cu
 ### Cloud
 - AWS
 
+### インフラ
+- Docker
+
 ### Infrastructure as Code
 - Ansible
   - 未導入の状態から既に構築手順がわからないインフラを業務の傍らで長期的にコード化した
 - Chef(少々)
+- Puppet(少々)
+- Vagrant
 
 ### Platform as a Service
 - Heroku
+
+### Linux
+- 業務で滞りなく扱える程度
+- 基本的なトラブルシュートはできる程度
 
 ### CIツール
 - CircleCI
@@ -56,6 +66,8 @@ This is template of curriculum vitae. Please use this template when need your cu
 - TravisCI
   - 嗜む程度(テスト回して、electronアプリのパッケージングをしたりする程度)
   - [参考：.travis.yml](https://github.com/yukimura1227/reveal_lightning/blob/development/.travis.yml)
+- Appveyor(少々)
+- Jenkins(少々)
 - Appveyor(少々)
 
 他にもあるので、TODO
@@ -107,6 +119,7 @@ capistrano
 - 社内のMTGをHangoutを使って、ライブ中継する文化を作った
 - 社内の図書購入と貸借管理のアプリを作って効率化した
 - サーバ証明書の期限切れでアクセスができなくなるような事案でも前向きに、証明書の更新の自動化を組み込んで再発防止に努めた
+- 負債返済の文化を全社的に浸透させた
 
 ## 強み
 
