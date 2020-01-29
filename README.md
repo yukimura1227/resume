@@ -210,6 +210,10 @@ amazonのURLを伝えると、会社の本として購入してくれる福利�
 社内のルールをゆるく周知して、ルール自体の改善を促すためのbot  
 [yukimura1227/mameshiba-slack-bot](https://github.com/yukimura1227/mameshiba-slack-bot)
 
+#### jobcan_do_it
+jobcanで出勤・退勤をするためのコマンドラインツール
+[yukimura1227/jobcan_do_it](https://www.npmjs.com/package/jobcan_do_it)
+
 ### 資格
 - 基本情報処理 2006.04取得
 - ソフトウェア開発技術者 2008.04取得
