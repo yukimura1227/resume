@@ -68,12 +68,10 @@ This is template of curriculum vitae. Please use this template when need your cu
   - [参考：.travis.yml](https://github.com/yukimura1227/reveal_lightning/blob/development/.travis.yml)
 - Appveyor(少々)
 - Jenkins(少々)
-- Appveyor(少々)
 
 ### 監視ツール
 - mackerel(少々)
 - zabbix(少々)
-
 
 他にもあるので、TODO
 
@@ -81,7 +79,7 @@ This is template of curriculum vitae. Please use this template when need your cu
 capistrano
 
 ## チームリード・チームビルド
-開発部全体のリーダーとして、チームを牽引
+### 開発部全体のリーダーとして、チームを牽引
 「エンジニアのLTV(Life Time Value)の総和を最大化する」というテーマを打ち出して、改善活動を行う(仕掛り中)
 - LT(Life Time)を伸ばす(長期的にサービスに貢献してもらう)
   - 広義の意味でのDX(Developer Experience)の向上活動(研究会を開く、リファクタリング時間を確保する、プロトタイプの作成時間を確保するなど)
@@ -98,6 +96,71 @@ capistrano
     - 学生バイトからの社員化 (教育制度の立案とセット)
     - 採用広報のためのネタづくり
 
+### コードレビュー時のコメントにラベルをつけようぜ運動
+以下のような、ラベルをつけることを推奨。(![badge](https://img.shields.io/badge/review-NOTE-green.svg) のようなbadge画像は使わずに、[NOTE] のようなテキストベースでも、全く問題ありません。)
+
+| バッヂ | ラベル | 用途 | 備考 |
+| ---- | ---- | ---- | ---- |
+| ![badge](https://img.shields.io/badge/review-NOTE-information.svg) | [NOTE] | ただのメモ書き。 | `![badge](https://img.shields.io/badge/review-NOTE-information.svg)` |
+| ![badge](https://img.shields.io/badge/review-ADVICE-information.svg) | [ADVICE] | 参考意見や、知っていると便利な知識などの、アドバイス。 | `![badge](https://img.shields.io/badge/review-ADVICE-information.svg)` |
+| ![badge](https://img.shields.io/badge/review-QUESTION-blue.svg) | [QUESTION] | 質問や疑問 | `![badge](https://img.shields.io/badge/review-QUESTION-blue.svg)` |
+| ![badge](https://img.shields.io/badge/review-NITS-blue.svg) | [NITS] | 本質的ではない、すごい細かい指摘。 | `![badge](https://img.shields.io/badge/review-NITS-blue.svg)` |
+| ![badge](https://img.shields.io/badge/review-REQUEST-important.svg) | [REQUEST] | 調査・確認してほしい、ついでにこっちも直してほしいといった依頼事項。 | `![badge](https://img.shields.io/badge/review-REQUEST-important.svg)` |
+| ![badge](https://img.shields.io/badge/review-IMO-important.svg) | [IMO] | In My Opinion.(私ならこうするけど、どうかしら？) | `![badge](https://img.shields.io/badge/review-IMO-important.svg)` |
+| ![badge](https://img.shields.io/badge/review-MUST-critical.svg) | [MUST] | バグっていたり、危険な実装。(ラベル自体が強いので、なるべく本文は、柔らかい表現を心がけましょう。) | `![badge](https://img.shields.io/badge/review-MUST-critical.svg)` |
+
+### ブランチの命名規則を統一しようぜ運動
+以下の命名規則を推奨。
+
+| 名前 | 用途 | 備考 |
+| ---- | ---- | ---- |
+| feat/ | 機能追加・機能修正 | ※test,refactor,miscなコミットを含んで良い。 |
+| fix/ | バグfix | ※test,refactor,miscなコミットを含んで良い。 |
+| test/ | テスト追加・テスト修正 | ※テストだけ追加・修正する場合 |
+| refact/ | リファクタ | ※リファクタだけ実施する場合 |
+| misc/ | その他(プログラム以外のみ) | ※ README.mdの修正だけするなど。 |
+
+### コミットメッセージの書き方を揃えようぜ運動
+以下のコミットメッセージformatを推奨。
+
+```
+label[must] (namespace[optional]): title[must]
+
+description[optional]
+
+footer[optional]
+```
+
+1. *label* の種類
+
+* feat: 機能追加・修正
+* fix: バグfix
+* refact: リファクタ
+* test: テスト修正・テスト追加のみの場合(featと同じタイミングでコミットする場合はfeatを使う)
+* docs: ドキュメント修正(コメント含む)
+* style: レイアウト微調整など
+* perf: パフォーマンス関連の修正
+* chore: その他
+
+2. *namespace* is put in parenthesis after label and is optional.
+3. *title* is a brief summary of changes.
+4. *description* is **optional**, new-line separated from title and is in present tense.
+5. *footer* is **optional**, new-line separated from *description* and contains "fixes" / "references" attribution to github issues.
+
+Example:
+
+```
+fix(Page): fix page.pizza method
+
+This patch fixes page.pizza so that it works with iframes.
+
+Fixes #123, Fixes #234
+
+```
+
+参考元：  
+- [angular.jsのガイドライン](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)
+- [puppeteerのガイドライン](https://github.com/GoogleChrome/puppeteer/blob/master/CONTRIBUTING.md#commit-messages)
 
 ## 言語
 
