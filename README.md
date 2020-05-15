@@ -30,11 +30,15 @@ This is template of curriculum vitae. Please use this template when need your cu
 ### フロントエンドフレームワークなど
 - Vue.js(少々)
 - Webpack(少々)
-- jest(少々)
 
 ### CSSフレームワークなど
 - ui-kit(少々)
 - bootstrap(少々)
+
+### テストフレームワークなど
+- jUnit(4系)
+- Rspec
+- jest(少々)
 
 ### 開発手法
 - ウォーターフォール(2008/06〜2016/02)
@@ -42,9 +46,14 @@ This is template of curriculum vitae. Please use this template when need your cu
 
 ### Cloud
 - AWS
+  - EC2
+  - S3
+  - RDS
+  - SQS
 
 ### インフラ
 - Docker
+- Vagrant
 
 ### Infrastructure as Code
 - Ansible
@@ -76,7 +85,7 @@ This is template of curriculum vitae. Please use this template when need your cu
 他にもあるので、TODO
 
 ### Deployツール
-capistrano
+- capistrano
 
 ## チームリード・チームビルド
 ### 開発部全体のリーダーとして、チームを牽引
@@ -163,7 +172,6 @@ Fixes #123, Fixes #234
 - [puppeteerのガイドライン](https://github.com/GoogleChrome/puppeteer/blob/master/CONTRIBUTING.md#commit-messages)
 
 ## 言語
-
 - 日本語
   - ネイティブ
 - 英語
@@ -190,7 +198,7 @@ Fixes #123, Fixes #234
   - codecovを使って、coverageの視覚化を実施
   - KPIに掲げられるような、働きかけ
   - 事業運営とのバランスを見ながら、長期的なcoverage向上運動の実施
-- Python3で書かれていたレガシーコードのRuby移行
+- Python2で書かれていたレガシーコードのRuby移行
 - お試しで、ログ視覚化サーバの構築・導入(実績づくり)
   - Elasticsearch
   - Kibana
@@ -206,20 +214,22 @@ Fixes #123, Fixes #234
 - 社内のMTGをHangoutを使って、ライブ中継する文化を作った
 - 社内の図書購入と貸借管理のアプリを作って効率化した
 - サーバ証明書の期限切れでアクセスができなくなるような事案でも前向きに、証明書の更新の自動化を組み込んで再発防止に努めた
-- 負債返済の文化を全社的に浸透させた
+- 技術的負債返済の文化を全社的に浸透させた
 - 技術的負債という言葉が独り歩きしていて、課題感を感じたので是正した
   - 理想と現実のギャップ -> これは、技術的負債とは呼ばないようにしよう(∵ 一生埋まらないので、疲弊するので)
   - 技術的負債 = チームとして当たり前にしておきたい状態と現実のギャップ(当たり前なので、返済のやり方が明確にわかっている)
   - 技術的闇 = 放置すると絶対にヤバいが、どうしたらいいかわからないようなもの
+- 未経験エンジニア採用からの社内教育について、未経験エンジニアも巻き込んでアウトラインを作った(仕掛かり中)
 
 ## 強み
-
 - エンジニア外も含めた、オールラウンダー
   - インフラ・サーバサイド・フロントエンドの開発・運用・保守が、まぁまぁできる
   - エンジニアの立場、相手の立場になって多角的に物事を判断できる
     - エンジニアサイドに偏らず、双方の言い分を咀嚼して話を整理して合意に至れることが多い
-  - 1on1などで、チームの状況確認も行う
-  - 採用・評価も行う
+      - TODO: 具体例
+  - 1on1などを通じて、チームの状況確認、メンタリング、コーチングを実施できる
+  - エンジニアの採用を行う
+  - エンジニアの評価を行う
 - 直面している課題に応じて柔軟に振る舞いを変えられる
   - 必要だと判断した場合は、やりたくないことも一定時間(半年とか1年とか)、職務変更で対応できる
     - ただし、苦手領域においてパフォーマンスが出せるとは言っていない
@@ -227,10 +237,12 @@ Fixes #123, Fixes #234
 - 無意識的に人間観察をし続けている
   - 相手の気持ちを想像する能力は高い(たぶん)
 - 大変な時でも、前向きでいられるし、常に気づきを得て、成長の糧にしている(と思う)
-- commit logの推奨ruleを策定(以下を参考にした)
-  - [angular.jsのガイドライン](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)
-  - [puppeteerのガイドライン](https://github.com/GoogleChrome/puppeteer/blob/master/CONTRIBUTING.md#commit-messages)
-
+- 長期的に効果を発揮するルールや文化をコツコツ浸透させることができる
+  - テストを書いていく文化
+  - コミットログの推奨の付け方
+  - ブウランチの推奨の切り方
+  - DeveloperExperience自体と、それを上げるために何ができるか？を全エンジニアで考えていく文化
+  
 ## 弱み
 - ある程度、サクセスストーリが見えないと、動きが、少し鈍くなる
 - 採用まではDRYに切り捨てるが、採用後は、あまりDRYには徹することが苦手
@@ -241,7 +253,6 @@ Fixes #123, Fixes #234
 - フロント系(強くはないので)
   - React
   - Angular
-  - Vue.js
 
 <!-- TODO
 ## 職務経歴
