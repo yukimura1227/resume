@@ -29,7 +29,8 @@ This is template of curriculum vitae. Please use this template when need your cu
 
 ### フロントエンドフレームワークなど
 - Vue.js(少々)
-- Webpack(少々)
+- Webpack
+- React（17以降）
 
 ### CSSフレームワークなど
 - ui-kit(少々)
@@ -50,12 +51,17 @@ This is template of curriculum vitae. Please use this template when need your cu
   - S3
   - RDS
   - SQS
+  - ecs
+  - ecr
+  - codebuild
+  - codepipeline
 
 ### インフラ
 - Docker
 - Vagrant
 
 ### Infrastructure as Code
+- terraform
 - Ansible
   - 未導入の状態から既に構築手順がわからないインフラを業務の傍らで長期的にコード化した
 - Chef(少々)
