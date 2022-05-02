@@ -56,10 +56,6 @@ This is template of curriculum vitae. Please use this template when need your cu
   - codebuild
   - codepipeline
 
-### インフラ
-- Docker
-- Vagrant
-
 ### Infrastructure as Code
 - terraform
 - Ansible
@@ -67,6 +63,7 @@ This is template of curriculum vitae. Please use this template when need your cu
 - Chef(少々)
 - Puppet(少々)
 - Vagrant
+- Docker
 
 ### Platform as a Service
 - Heroku
