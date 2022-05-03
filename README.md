@@ -254,7 +254,6 @@ Fixes #123, Fixes #234
 ## やったことはないが興味があるもの
 - Google Cloud Platform
 - フロント系(強くはないので)
-  - React
   - Angular
 
 <!-- TODO
