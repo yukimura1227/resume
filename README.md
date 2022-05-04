@@ -19,6 +19,7 @@ This is template of curriculum vitae. Please use this template when need your cu
 - Ruby
 - Java
 - Javascript
+- Typescript
 - C,C++ (大学生時代に使っていた)
 
 ### サーバサイドフレームワーク
