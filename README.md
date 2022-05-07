@@ -86,6 +86,10 @@ This is template of curriculum vitae. Please use this template when need your cu
 - mackerel(少々)
 - zabbix(少々)
 
+### その他ミドルウェア
+- fluentd
+- opensearch
+
 他にもあるので、TODO
 
 ### Deployツール
