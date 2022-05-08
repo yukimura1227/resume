@@ -89,6 +89,7 @@ This is template of curriculum vitae. Please use this template when need your cu
 ### その他ミドルウェア
 - fluentd
 - opensearch
+- digdag
 
 他にもあるので、TODO
 
